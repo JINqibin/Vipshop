@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapleft,#wrapright,#reco,#pageleft,#pageright,#ss{
+    cursor: pointer;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.FW-recomBox {
+    overflow: hidden;
+    position: relative;
+}
+ .recom-new-top {
+    margin-bottom: 20px;
+}
+.detail-part2-recommend-wrapper {
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.detail-part2-recommend-wrapper .reco-body {
+    position: relative;
+    overflow: hidden;
+    height: 580px;
+}
+
+.ui-paging-mini {
+    line-height: 24px;
+}
+
+ .icon-btn-disable {
+    color: #d8d8d8;
+    cursor: not-allowed;
+}
+
+
+.detail-part2-recommend-wrapper .ui-paging-icon-btn {
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    width: 32px;
+    height: 54px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+.ui-paging-icon-btn {
+    font-size: 21px;
+    color: grey;
+}
+
+.ui-paging-mini {
+    line-height: 24px;
+}
+.body-wrap{
+    position: absolute;
+    width: 5100px;
+    transition: 0.5s linear;
+}
+#wrapright{
+    left: 970px;
+    top: 179px;
+}
+.bodywraponclick{
+    position: relative;
+    display: none;
+    width: 30px;
+    top: 42%;
+    background: black;
+    opacity: 0.7;
+    font-size: 30px;
+    height: 60px;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+}
+.reco-body:hover .bodywraponclick{
+    display: block;
+}
+
+.detail-part2-recommend-wrapper .reco-head {
+    background-color: #eae8eb;
+    line-height: 45px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+.reco-item {
+    float: left;
+    width: 184px;
+    margin-right: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+ .item-img-bk {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.reco-item:hover  .item-img-bk{
+    display: block;
+
+
+}
+
+ .reco-item .item-name {
+    height: 18px;
+    color: #666;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.reco-item .price-vipshop {
+    color: #f10180;
+    font-size: 14px;
+    margin-right: 3px;
+}
+ .price-market {
+    text-decoration: line-through;
+     color: silver;
+}
+.FW-wrap {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+.head-page {
+    position: absolute;
+    top: 8px;
+    font-size: 14px;
+    font-family: arial;
+    right: auto;
+    left: 927px;
+}
+div {
+    display: block;
+}
+.reco-head {
+    background-color: #eae8eb;
+    line-height: 45px;
+}
+p {
+    display: block;
+}
+
+.M-detailTitle{
+    background-color: #eae8eb;
+    line-height: 45px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.q-tit {
+    height: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.qti-title {
+    font-weight: 700;
+}
+.qti-txt {
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.q-tit-item {
+    font-size: 14px;
+    color: #333;
+    padding: 10px 0;
+}
+.q-tit-btn,
+.qti-answer,
+.qti-question {
+    background: url(image/detail_imgs_new.png) no-repeat;
+}
+.q-tit-btn {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-position: -200px -50px;
+}
+.qti-answer {
+    background-position: -500px -346px;
+    width: 16px;
+    height: 18px;
+    float: left;
+}
+.qti-question {
+    background-position: -500px -296px;
+    width: 16px;
+    height: 18px;
+    float: left;
+}
+
+.q-tit-btn span {
+    font-size: 12px;
+    color: #fb4892;
+    padding-left: 40px;
+}
+.q-tit-item a {
+    color: #f43499;
+}
+.q-return {
+    padding: 20px 25px 0;
+}
+.icon-list li {
+    float: left;
+    width: 58px;
+    height: 90px;
+    padding: 0 20px;
+    display: inline-block;
+}
+.icon-list-background .li-item {
+    background-image: url(image/detail_about_imgs.png);
+    background-repeat: no-repeat;
+}
+.li-item {
+    display: inline-block;
+    width: 58px;
+    height: 90px;
+}
+.item-1 {
+    background-position: -60px 0;
+}
+.item-2 {
+    background-position: -120px 0;
+}
+.item-3 {
+    background-position: -180px 0;
+}
+.item-4 {
+    background-position: -240px 0;
+}
+.item-5 {
+    background-position: -300px 0;
+}
+.item-6 {
+    background-position: -360px 0;
+}
+.item-7 {
+    background-position: -420px 0;
+}
+.item-8 {
+    background-position: -480px 0;
+}
+.item-9 {
+    background-position: -540px 0;
+}
+ .item-0:hover {
+    background-position-y:-120px;
+}
+.item-1:hover {
+    background-position-y:-120px;
+}
+.item-2:hover {
+    background-position-y:-120px;
+}
+.item-3:hover {
+    background-position-y:-120px;
+}
+
+.item-4:hover {
+    background-position-y:-120px;
+}
+.item-5:hover {
+    background-position-y:-120px;
+}
+
+.item-6:hover {
+    background-position-y:-120px;
+}
+.item-7:hover {
+    background-position-y:-120px;
+}
+
+.item-8:hover {
+    background-position-y:-120px;
+}
+.item-9:hover {
+    background-position-y:-120px;
+}
+#content-wrap{
+  margin-top: 110px;
+}
+.au-top-0, .au-top-1, .au-top-2, .au-top-3, .au-top-4, .au-top-5, .au-top-6, .au-top-7, .au-top-8, .au-top-9 {
+    width: 1000px;
+    height: 71px;
+    background-image: url(//shop.vipstatic.com/img/te/detail_about_imgs.png?895549c3);
+    background-repeat: no-repeat;
+}
+.au-top-0 {
+    background-position: 0 -240px;
+}
+.au-con {
+    width: 1000px;
+    height: 614px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.au-top-1 {
+    background-position: 0 -320px;
+}
+
+.au-top-2 {
+    background-position: 0 -400px;
+}
+.au-top-3 {
+    background-position: 0 -480px;
+}
+
+#leftimg,#rightimg{
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    background: black;
+    color: white;
+    line-height: 40px;
+    opacity: 0.5;
+    position: relative;
+    top: 34%;
+}
+#leftimg{
+    left: -467px;
+}
+#rightimg{
+    left: 452px;
+}
+
+
+.au-con-list{
+    position: absolute; width: 2000px;
+}
+
+
+.au-con-list>li{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

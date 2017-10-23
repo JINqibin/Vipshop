@@ -1,0 +1,361 @@
+
+.g-header{
+    width: 80%;
+    height: 100px;
+    margin:0 auto;
+}
+
+.u-logo{
+    float: left;
+    background-image: url("image/sprite.png");
+    background-position: 0 0;
+    width: 313px;
+    height: 53px;
+}
+.u-promise {
+    float: right;
+    margin-top: 12.5px;
+    background-image: url("image/sprite.png");
+    background-position: -317px 0;
+    width: 445px;
+    height: 28px;
+}
+.g-content {
+    height: 500px;
+    width: 80%;
+    background-position: center center;
+    background: url("image/dlbj.jpg")  no-repeat ;
+    margin:0 auto;
+}
+#single{
+    width:276px;
+    float: right;
+    padding-top: 40px;
+    padding-right: 100px;
+}
+.tip{
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 15px;
+}
+#yhk,#mmk{
+    border: 1px solid #c5d3e1;
+    border-radius:3px ;
+
+}
+.ui-input {
+    width: 250px;
+    padding: 8px 10px;
+    border: 0px;
+    outline:none;
+}
+#loginsubmit{
+    background: #f10381;
+    border: 0px;
+    border-radius:3px ;
+    width: 140px;
+    height: 40px;
+
+}
+.dlbut{
+      font-size:18px ;
+    color: white;
+}
+#yhname1, #mmpwdd{
+    display: block;
+    height: 20px;
+    color: #f10381;
+    font-size: 12px;
+}
+.forget:hover{
+    color: #f10381;
+}
+.mof{
+    font-size: 12px;
+}
+.ucl{
+    text-align: right;
+    width: 114px;
+    float: right;
+}
+.title{
+    font-size: 12px;
+}
+
+
+#mtl a{
+    color: #666;
+    text-decoration: none;
+    font-size: 12px;
+}
+.u-third-sina {
+    background-position: -291px -57px;
+}
+.u-third-sina:hover{
+    background-position: -263px -57px;
+}
+
+
+.u-third-qq {
+    background-position: -235px -57px;
+}
+.u-third-qq:hover {
+    background-position: -347px -57px;
+}
+.u-third-alipay {
+    background-position: -179px -57px;
+}
+.u-third-alipay:hover {
+    background-position: -151px -57px;
+}
+.u-third-wechat {
+    background-position: -207px -57px;
+}
+.u-third-wechat:hover {
+    background-position: -320px -57px;
+}
+.u-third-alipay, .u-third-qq, .u-third-sina, .u-third-wechat {
+    float: left;
+    display: inline;
+    margin-right: 8px;
+    background-image: url(//member-ssl.vipstatic.com/img/passport/sprite.png?b4434e18);
+    width: 24px;
+    height: 24px;
+}
+
+.title3{
+    margin: 20px -13px 0;
+    visibility: hidden;
+    transform: rotateX(-90deg);
+    transform-origin: center top;
+    opacity: 0;
+    transition: .36s;
+}
+.title3_1 {
+    visibility: visible;
+    transform: rotateX(0deg);
+    opacity: 1;
+    transition: transform .36s,opacity .36s;
+}
+
+#title3 a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#gengduo:hover{
+    color: #f10381;
+}
+
+#title3 a:hover{
+    color: #f10381;
+}
+
+.g-footer{
+    position:relative;
+  margin-left: 409px;
+
+}
+.g-footer p{;
+    font-size: 13px;
+}
+/*   登录   */
+
+.regForm{
+    width: 270px;
+    float: left;
+    display: inline;
+    overflow: hidden;
+}
+span{
+  font-size: 13px;
+}
+a{
+    text-decoration: none;
+}
+.fl{
+     float: left;
+}
+.fr{
+    float: right;
+}
+.fr a{
+    color: #f10381;
+}
+.fr a:hover{
+    text-decoration:underline #f10381 ;
+}
+
+
+.sjhts1{
+    position:absolute;
+    font-size: 13px;
+    top: 152px;
+    height: 34px;
+    background: white;
+    line-height: 34px;
+    border-radius:1px ;
+    display: none;
+}
+.sjhts2{
+    border: 1px #02858a solid;
+    background: rgb(223, 245, 233);
+    position:absolute;
+    font-size: 13px;
+    top: 152px;
+    height: 34px;
+    line-height: 34px;
+    border-radius:1px ;
+}
+.sjhts3{
+    border: 1px #ffdc1a solid;
+    background: rgb(244, 245, 185);
+    position:absolute;
+    font-size: 13px;
+    top: 152px;
+    height: 34px;
+    line-height: 34px;
+    border-radius:1px ;
+}
+#sjshuru,#mmshuru,#mmshuru_1{
+    border:1px solid #e1e1e1;
+    border-radius:4px;
+    height: 28px;
+    width: 268px;
+}
+
+.pass1{
+    border: 1px #02858a solid;
+    background: rgb(223, 245, 233);
+    position:absolute;
+    font-size: 13px;
+    top: 189px;
+    height: 50px;
+    line-height: 23px;
+    border-radius:5px ;
+    width: 267px;
+}
+.pass2{
+    border: 1px #ffdc1a solid;
+    background: rgb(244, 245, 185);
+    position:absolute;
+    font-size: 13px;
+    top: 206px;
+    height: 34px;
+    line-height: 34px;
+    border-radius:1px ;
+}
+.ind{
+    color: #a3a3a3;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 10px;
+}
+.ind2{
+     background: #a3a3a3 ;
+     display: inline-block;
+     text-align: center;
+     width: 30px;
+     height: 10px;
+ }
+.ind3{
+     background: red ;
+     display: inline-block;
+     text-align: center;
+     width: 30px;
+     height: 10px;
+ }
+.ind4{
+    background: green;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 10px;
+}
+
+.indicator1{
+    display: none ;
+}
+
+.indicator2{
+    display:inline-block ;
+}
+
+.pass1_1{
+    border: 1px #ffdc1a solid;
+    background: rgb(244, 245, 185);
+    position:absolute;
+    font-size: 13px;
+    top: 259px;
+    height: 34px;
+    line-height: 34px;
+    border-radius:1px ;
+}
+
+#dxyzm{
+    position:absolute;
+    font-size: 13px;
+    top: 312px;
+    height: 34px;
+    line-height: 34px;
+    border-radius:1px ;
+}
+
+#dxhuoqv1,#dxhuoqv2{
+    border:1px solid #e1e1e1;
+    border-radius:4px;
+    height: 28px;
+    width: 141px;
+}
+#dxhuoqv2{
+    float: right;
+    width: 100px;
+    background: #d0d0d0;
+    text-align: center;
+    line-height:28px ;
+}
+#zhucefansi{
+    font-size: 12px;
+    float: right;
+    line-height: 70px;
+    color: #1f95d1;
+}
+
+
+#xeiyi>div{
+   width: 100%;
+    border: 1px solid black;
+}
+#xeiyi span,a {
+
+    font-size: 12px;
+    display: inline;
+}
+#xeiyi span{
+    display: inline-block;
+    width: 250px;
+}
+.ui-label {
+    display: inline-block;
+
+    vertical-align: middle;
+    margin-right: -19px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.red{
+    color: #f10582;
+}
+#wwww{
+    display: none;
+}
+#qqqq{
+    display:block;
+}
+#yzzh1shuru2,#mmshuru2,#indicator12,#mmshuru_12,#sjshuru2{
+    border:1px solid #e1e1e1;
+    border-radius:4px;
+    height: 28px;
+    width: 268px;
+}

@@ -1,0 +1,478 @@
+.FW-wrap {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.fwr {
+    font-family: \5FAE\8F6F\96C5\9ED1,sans-serif;
+}
+.M-class {
+    width: 1000px;
+    padding: 11px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.M-class a,span{
+    font-size: 12px;
+    color: black;
+}
+.m-product{
+    width: 1000px;
+    height: 700px;
+}
+.zoomWrapperImage{
+    width: 420px;
+    height: 531px;
+    overflow: hidden;
+}
+
+.productimg{
+    width: 422px;
+    height: 532px;
+}
+.m-product-img{
+    height: 648px;
+    width: 426px;
+    float: left;
+}
+.zoomWrapperImage img{
+    width: 420px;
+    height: 531px;
+}
+.zoomimg img{
+    width: 62px;
+    height: 73px;
+    float: left;
+    margin-right: 7px;
+    border:1px snow solid;
+}
+.zoomimg img:hover{
+    border-color: #f10582;
+}
+.other-infoCoding {
+    color: #999;
+    line-height: 32px;
+float: left;
+    font-size: 12px;
+    display: inline-block;
+}
+.star-empty-icon {
+    background-image: url(//shop.vipstatic.com/img/te/sprites.png?c36bd78a);
+    background-position: 0 -124px;
+    width: 16px;
+    height: 15px;
+}
+.onsell-collect {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: top;
+    float: left;
+}
+.onsell-collect .star-icon {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.goods-fav-collect{
+    line-height: 17px;
+    cursor: pointer;
+    width: 77px;
+    padding: 1px 0 1px 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 18px;
+
+}
+.fx{
+    display: block;
+    background: url("image/fx1.png") no-repeat;
+    width: 138px;
+    height: 61px;
+    clear: left;
+    float: right;
+    margin-top: -25px;
+    margin-right: -24px;
+}
+.fx:hover{
+    background: url("image/fx2.png") no-repeat;
+}
+.m-text{
+    width: 572px;
+    height:650px;
+    float: left;
+}
+#divdown1{
+    display: block;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    background: black;
+    opacity: 0.5;
+    float: right;
+    text-align: center;
+}
+.pib-title-detail{
+    font-size: 20px;
+}
+.pib-title-class{
+    font-size: 12px;
+}
+.pib-title-class,.goods-description-title ,.pib-title-detail{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.goods-description-title{
+    font-size: 12px;
+    color: #d0d0d0;
+}
+.pbox-price {
+    font-family: arial;
+    font-size: 48px;
+    margin-left: 20px;
+    display: inline-block;
+    position: relative;
+    color: #f43499;
+    line-height: 1.2;
+    margin-top: 13px;
+}
+.pi-price-box {
+    background: url(//shop.vipstatic.com/img/te/detail_price_bg.png?5d098cca) no-repeat #faf5f8;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    position: relative;
+    z-index: 11;
+    width: 500px;
+    padding-left: 0;
+    margin-left: 21px;
+}
+.pi-price-y{
+    width: 500px;
+    padding-left: 0;
+    margin-left: 21px;
+    height: 41px;
+}
+.pi-dicount-box {
+    display: inline-block;
+    z-index: 30;
+    position: relative;
+    vertical-align: top;
+    margin-top: 24px;
+}
+.pbox-off {
+    position: relative;
+    font-size: 12px;
+    color: #f43499;
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid #f43499;
+    padding: 0 5px;
+}
+
+.size-list-item{
+    display: inline-block;
+    width: 80px;
+    height: 32px;
+    border: 2px solid #f10582;
+    line-height: 32px;
+    text-align: center;
+    font-size: 18px;
+
+}
+ .i-select {
+    position: relative;
+     bottom: 14px;
+     right: -64px;
+    width: 17px;
+    height: 16px;
+    background-position: -50px -100px;
+     display: block;
+     background-image: url(//shop.vipstatic.com/img/te/detail_imgs_new.png?6f92d619);
+     background-repeat: no-repeat;
+}
+
+.size-list-but{
+    display: inline-block;
+    width: 80px;
+    height: 32px;
+    border: 1px solid #d0d0d0;
+    line-height: 32px;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+    left: -5px;
+}
+#size1,#size2,#size3{
+    display: inline-block;
+    float: left;
+    border: 0;
+    font-size: 18px;
+    text-align: center;
+}
+#size2{
+    height: 100%;
+    width: 30px;
+}
+#size1,#size3{
+    height: 100%;
+    width: 25px;
+
+}
+.goods{
+    display: inline-block;
+    width: 30px;
+    height: 32px;
+}
+
+#pipricex{
+}
+
+#sizetext{
+    display: inline-block;
+    position: relative;
+    border: 1px solid #fff63f;
+    border-radius:4px ;
+    top: 31px;
+    left: -112px;
+    font-size: 14px;
+    height: 34px;
+    line-height: 34px;
+    width: 150px;
+    text-align: center;
+    background: #fffaf3;
+}
+
+.jiaru{
+    background: url("image/jiar.png");
+    display: inline-block;
+    height: 54px;
+    width: 223px;
+    border: 0px;
+    outline:none;
+    cursor:pointer;
+    margin-left: 55px;
+}
+.jiaru:hover{
+    opacity: 0.9;
+}
+.jiarutext{
+    margin-left:95px;
+    vertical-align: middle;
+}
+.jiarus{
+    position: relative;
+    top: 2px;
+    left: -22px;
+    display: none;
+}
+.jiarutext:hover .jiarus{
+   display: block;
+}
+.pi-price-s{
+    margin-left: 20px;
+    height: 200px;
+    border-bottom: 1px dashed #d0d0d0;
+}
+.dt-list-img{
+    float: right;
+
+}
+.dt-list-img>img{
+    margin-top: -5px;
+}
+.dt-list-img>span{
+    font-size: 35px;
+    color: #f10582;
+}
+.pi-price-m{
+    width: 300px;
+    border: 1px solid #fff63f;
+    border-radius:4px ;
+
+    position: relative;
+    background: #fffaf3;
+    font-size: 12px;
+    left:240px;
+    display: none;
+}
+.pi-price-y:hover .pi-price-m{
+    display: block;
+}
+.ad-dmid{
+    width: 1000px;
+    padding-bottom: 10px;
+     margin-bottom: 20px;
+
+}
+
+.M-detailTop{
+    height: 36px;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 3px solid #000;
+    background-color: #fff;
+    border-right: 1px solid #e7e7e7;
+}
+.M-detailTopFixed>ul{
+    margin-left: 175px;
+}
+.M-detailTopFixed>div{
+    margin-right: 175px;
+}
+.M-detailTopFixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.dt-list .dt-item {
+    float: left;
+    height: 36px;
+}
+
+.dt-list-item {
+    display: block;
+    width: 100px;
+    padding: 0;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    border-left: 1px solid #e7e7e7;
+}
+.dt-list-item:hover {
+    border-bottom: 3px solid #f10180;
+    color: #f10180;
+}
+
+.dc-tit-new {
+    text-align: left;
+    clear: both;
+    padding-left: 20px;
+    background: url(//shop.vipstatic.com/img/te/detial_line.png?f06a5522) repeat-x left bottom;
+    position: relative;
+    padding-bottom: 6px;
+}
+.dc-brand-like, .dc-focus-left, .dc-focus-right, .dc-tit-new-icon, .dcwl-item-icon, .i-sizeStar {
+    background: url(//shop.vipstatic.com/img/te/detail_imgs_new.png?6f92d619) no-repeat;
+}
+.dc-tit-new-icon {
+    background-position: -250px -500px;
+    position: absolute;
+    top: 9px;
+    width: 13px;
+    height: 13px;
+    left: 0px;
+}
+.dc-title {
+    color: #f10180;
+    font-size: 20px;
+}
+.dc-tit-new .dc-title-en {
+    color: #999;
+    font-size: 20px;
+    padding-left: 5px;
+    position: relative;
+    bottom: -2px;
+}
+.dc-info {
+    padding: 20px 0 40px 0;
+    font-size: 14px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.dc-table {
+    font-size: 14px;
+    width: 100%;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.dc-table td {
+    border: 1px solid #ededed;
+    padding: 10px;
+    color: #999;
+    width: 370px;
+}
+.dc-table .dc-table-tit {
+    text-align: right;
+    background-color: #f5f5f5;
+    color: #666;
+    width: 90px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+.footer{  z-index: 0;  }
+.dc-img-detail {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+/*推荐*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
